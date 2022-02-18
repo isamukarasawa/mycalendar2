@@ -8,26 +8,36 @@
       </p>
       <p class="show-title">
         <strong>やること</strong>
-      </p>
-      <p>
-        <%= @blog.title %>
+        <p class="title-text">
+          <%= @blog.title %>
+        </p>
       </p>
 
       <p class="show-content">
         <strong>メモ</strong>
-      </p>
-      <p>
-        <%= @blog.content %>
-      </p>
-
-      <strong>日記</strong>
-      <p>
-        <%= @blog.diary %>
+        <p class="content-text">
+          <%= @blog.content %>
+        </p>
       </p>
 
-      <%= link_to '編集', edit_blog_path(@blog) %>
-      <%= link_to '消去',blog_path(@blog.id), method: :delete, data: { confirm: '本当に?' } %>
-      <%= link_to '戻る', blogs_path %>
+      <p class="show-diary">
+        <strong>日記</strong>
+        <p class="diary-text">
+          <%= @blog.diary %>
+        </p>
+      </p>
+      
+      <div class="show-button">
+        <div class="edit-button">
+          <%= link_to '編集', edit_blog_path(@blog) %>
+        </div>
+        <div class="delete-button">
+        <%= link_to '消去',blog_path(@blog.id), method: :delete, data: { confirm: '本当に?' } %>
+        </div>
+        <div class="blog-button">
+          <%= link_to '戻る', blogs_path %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
