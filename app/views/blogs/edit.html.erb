@@ -1,19 +1,25 @@
 <%= form_with(model: @blog, local: true) do |form| %>
 
   <div class="title">
-    <div class="form-tag">タイトル</div>
+    <div class="form-tag">やること</div>
     <%= form.text_field :title %>
   </div>
 
 
   <div class="content">
-    <div class="form-tag">内容</div>
+    <div class="form-tag">メモ</div>
     <%= form.text_field :content %>
   </div>
 
+  <div class="diary">
+    <div class="form-tag">日記</div>
+    <%= form.text_field :diary %>
+  </div>
+
     <div class="time">
-    <div class="form-tag">時間</div>
-    <%= form.datetime_select :start_time %>
+    <div class="form-tag">日付</div>
+    <%#= form.datetime_select :start_time %>
+    <%= form.date_field :start_time %>
   </div>
 
 

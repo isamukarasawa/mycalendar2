@@ -31,7 +31,7 @@
     <%= form_with(model: @blog, local: true) do |form| %>
 
       <div class="title">
-        <div class="form-tag">todo</div>
+        <div class="form-tag">やること</div>
         <div calss="title-form">
           <%= form.text_field :title %>
         </div>
@@ -39,15 +39,17 @@
 
 
       <div class="content">
-        <div class="form-tag">memo</div>
+        <div class="form-tag">メモ</div>
         <%= form.text_field :content %>
       </div>
 
         <div class="time">
-        <div class="form-tag">day</div>
+        <div class="form-tag">日付</div>
         <%#= form.datetime_select :start_time %>
         <%= form.date_field :start_time %>
       </div>
+
+
 
     <div class="submit">
         <%= form.submit %>
