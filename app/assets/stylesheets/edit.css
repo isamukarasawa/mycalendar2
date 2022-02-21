@@ -1,18 +1,18 @@
 
 .show {
-  background: #c6f8e1;
+  background: #197ff3;
 }
 
 .edit-time {
   font-size: 50px;
-  background: rgb(16, 212, 42);
+  background: #4698f7;
   color: white;
 }
 
 .edit-title,.edit-content,.edit-diary {
   font-size: 35px;
   padding: 0.5em;/*文字周りの余白*/
-  color: yellowgreen;/*文字色*/
+  color: #3b4043;/*文字色*/
   background: #fffaf4;/*背景色*/
   /* border-left: solid 5px yellowgreen;左線（実線 太さ 色） */
  }
