@@ -17,7 +17,7 @@ div {
 
 body {
   font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  color: #3b4043;
+  color: black;
 }
 
 li {
@@ -50,12 +50,12 @@ p {
 
 a {
   text-decoration: none;
-  color: rgb(106, 182, 150);
+  color: #3b4043;
 }
 
 .toppage {
-  background: #c6f8e1;
-  color: black;
+  background: #9bc4f7;
+  color: pink;
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ a {
 }
 
 h1 {
-  color: rgb(71, 247, 115);
+  color: white;
   font-size: 50px;
   margin: 0 0 30px 0;
   /* background: rgb(130, 216, 180);
@@ -75,22 +75,22 @@ h1 {
 
 .thead-light {
   padding: 0.5em;/*文字周りの余白*/
-  color: rgb(83, 168, 133);/*文字色*/
+  color: #3b4043;/*文字色*/
   /* background: #fffaf4; */
   border-left: solid 5px yellowgreen;/*左線（実線 太さ 色）*/
 }
 
 .schedule {
- color: rgb(106, 182, 150);
+ color: #3b4043;
 }
 
 .tbody-light {
-  color: rgb(106, 182, 150);
+  color: #3b4043;
 }
 
 .form-tag {
   padding: 0.5em;/*文字周りの余白*/
-  color: yellowgreen;/*文字色*/
+  color: rgb(133, 164, 248);/*文字色*/
   background: #fffaf4;/*背景色*/
   /* border-left: solid 5px yellowgreen;左線（実線 太さ 色） */
 }
@@ -100,7 +100,7 @@ h1 {
 }
 
 .day {
-  color: rgb(36, 33, 33);
+  color: #3b4043;
 }
 
 .plan {
@@ -112,13 +112,12 @@ h1 {
 /* _month  */
 
 .table-striped {
-  color: rgb(106, 182, 150);
+  color: white;
 }
 
 .calendar-heading {
-  color: yellowgreen;
+  color: white;
 }
-
 
 
 

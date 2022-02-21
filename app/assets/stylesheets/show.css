@@ -6,19 +6,19 @@ body {
 .show {
   width: 100%;
   height: 800px;
-  background: #c6f8e1;
+  background: #adcef5;
 }
 
 .show-teim {
   font-size: 50px;
-  background: rgb(16, 212, 42);
+  background: #4698f7;
   color: white;
 }
 
 .show-title,.show-content,.show-diary {
  font-size: 35px;
  padding: 0.5em;/*文字周りの余白*/
- color: yellowgreen;/*文字色*/
+ color: #313438;/*文字色*/
  background: #fffaf4;/*背景色*/
  /* border-left: solid 5px yellowgreen;左線（実線 太さ 色） */
 }
